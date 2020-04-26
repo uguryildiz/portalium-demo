@@ -1,0 +1,22 @@
+{
+	"name" : "portalium/portalium-demo",
+	"description" : "Portalium Demo Module",
+	"type" : "portalium-module",
+	"license": "MIT",
+	"homepage" : "http://portalium.dev",
+	"authors" : [
+		{
+			"name" : "Uğur YILDIZ",
+			"email" : "yildiz@diginova.com.tr",
+			"homepage" : "http://uguryildiz.net"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/portalium/portalium-demo/issues"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"portalium\\demo\\" : "src/"
+		}
+	}
+}
